@@ -6,7 +6,7 @@ hooks-options:
   # Here is where you can customize all options about the WorldGuard hook.
   world-guard:
     # This toggles the WorldGuard hook.
-    use-hook: false
+    use-hook: true
     # If this is enabled, PTG will not work in ANY regions of worldguard.
     block-in-all: false
     # I this option is enabled, the region list will act as a blacklist, otherwise it will act as a whitelist.
@@ -20,21 +20,21 @@ hooks-options:
     use-hook: false
   factions:
     # If this is enabled, physics to go features will not work within claimed land.
-    use-factions: false
+    use-factions: true
     # If this is enabled, the hook will use Factions UUID over Massive Core.
-    factions-uuid: false
+    factions-uuid: true
   grief-prevention:
     # If this is enabled, physics to go features will not work within claimed land.
     use-grief-prevention: false
   askyblock:
     # If this is enabled, physics to go features will not work on islands.
-    use-askyblock: false
+    use-askyblock: true
   kingdoms:
     # If this is enabled, physics to go features will not work within kingdom claimed land.
     use-kingdoms: false
   residence:
     # If this is enabled, physics to go features will not work within residence land.
-    use-residence: false
+    use-residence: true
   towny:
     # If this is enabled, physics to go features will not work within town blocks.
     use-towny: false
